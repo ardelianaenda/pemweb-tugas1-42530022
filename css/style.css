@@ -150,3 +150,79 @@ footer {
     background-color: var(--light-color);
     border-top: 1px solid var(--border-color);
 }
+
+/* ========================================
+   RESPONSIVE - TABLET
+   ======================================== */
+
+@media (min-width: 768px) {
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        flex-direction: row;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    #fitur,
+    #harga,
+    #testimoni {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    section,
+    aside {
+        padding: 4rem 2rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+
+/* ========================================
+   RESPONSIVE - DESKTOP
+   ======================================== */
+
+@media (min-width: 1024px) {
+
+    nav {
+        padding: 1rem 2rem;
+    }
+
+    section,
+    aside {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+
+/* ========================================
+   MENCEGAH HORIZONTAL OVERFLOW
+   ======================================== */
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
