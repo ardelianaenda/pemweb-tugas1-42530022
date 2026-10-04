@@ -29,18 +29,6 @@ Website ini dibuat untuk memenuhi tugas Pemrograman Web dengan menerapkan HTML5 
 - Responsive Design
 - Mobile-First Design
 
-## Struktur Project
-
-```text
-pemweb-tugas1-42530022/
-├── index.html
-├── css/
-│   └── style.css
-├── assets/
-│   ├── images/
-│   └── icons/
-└── README.md
-
 ## Pengujian
 
 Website telah diuji pada ukuran layar:
@@ -59,10 +47,26 @@ Hasil pengujian menggunakan Lighthouse:
 
 ## Repository
 
-Link repository GitHub akan ditambahkan setelah repository selesai.
+https://github.com/ardelianaenda/pemweb-tugas1-42530022.git
+
+## Live Preview
+
+https://ardelianaenda.github.io/pemweb-tugas1-42530022/ 
 
 ## Identitas
 
 **Nama:** Ardelia Naenda Ahmadi
 **NIM:** 42530022
 **Program Studi:** Teknologi Informasi
+
+## Struktur Project
+
+```text
+pemweb-tugas1-42530022/
+├── index.html
+├── css/
+│   └── style.css
+├── assets/
+│   ├── images/
+│   └── icons/
+└── README.md
